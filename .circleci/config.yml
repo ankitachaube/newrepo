@@ -1,6 +1,6 @@
 version: 2
-Jobs: # we now have TWO jobs, so that a workflow can coordinate them!
-  one: # This is our first job.
+Jobs: #we now have TWO jobs, so that a workflow can coordinate them!
+  one: #This is our first job.
     docker: # it uses the docker executor
       - image: cimg/ruby:2.6.8 # specifically, a docker inage with ruby      2.6.8
         auth:
